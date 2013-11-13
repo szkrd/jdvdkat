@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<directory format="DiskDir" name="" size="0" lastModified="1279442495015" absolutePath="Q:/incoming/">
+<directory name="lsttest" size="0" lastModified="1279377564000" absolutePath="Q:/incoming/lsttest/">
+<directory name="ansi_&#233;&#225;uo&#250;&#252;&#246;&#252;&#243;.txt" size="0" lastModified="1279377564000" absolutePath="Q:/incoming/lsttest/ansi_&#233;&#225;uo&#250;&#252;&#246;&#252;&#243;.txt/" suffix="txt" />
+<directory name="a" size="0" lastModified="1279375356000" absolutePath="Q:/incoming/lsttest/a/">
+<file name="0.txt" size="1" lastModified="1279172742000" absolutePath="Q:/incoming/lsttest/a/0.txt" suffix="txt" />
+<file name="a.txt" size="1" lastModified="1279171980000" absolutePath="Q:/incoming/lsttest/a/a.txt" suffix="txt" />
+<file name="c.txt" size="1" lastModified="1279172006000" absolutePath="Q:/incoming/lsttest/a/c.txt" suffix="txt" />
+<file name="b.zip" size="1581" lastModified="1279375356000" absolutePath="Q:/incoming/lsttest/a/b.zip" suffix="zip">
+<file name="gma4500.txt" size="5873" lastModified="1275829308000" absolutePath="Q:/incoming/lsttest/a/b.zip/gma4500.txt" packed="true" suffix="txt" />
+<directory name="inarchive" size="0" lastModified="1279372370000" absolutePath="Q:/incoming/lsttest/a/b.zip/inarchive/" packed="true">
+<file name="z.txt" size="0" lastModified="1279372370000" absolutePath="Q:/incoming/lsttest/a/b.zip/inarchive/z.txt" packed="true" suffix="txt" />
+</directory>
+<directory name="emptydir" size="0" lastModified="1279375356000" absolutePath="Q:/incoming/lsttest/a/b.zip/emptydir/" packed="true" />
+</file>
+<directory name="a1" size="0" lastModified="1279171862000" absolutePath="Q:/incoming/lsttest/a/a1/">
+<file name="a1.txt" size="2" lastModified="1279171864000" absolutePath="Q:/incoming/lsttest/a/a1/a1.txt" suffix="txt" />
+</directory>
+</directory>
+<directory name="b" size="0" lastModified="1279171870000" absolutePath="Q:/incoming/lsttest/b/">
+<file name="b.txt" size="1" lastModified="1279171872000" absolutePath="Q:/incoming/lsttest/b/b.txt" suffix="txt" />
+</directory>
+<directory name="c" size="0" lastModified="1279171876000" absolutePath="Q:/incoming/lsttest/c/">
+<file name="c.txt" size="1" lastModified="1279171878000" absolutePath="Q:/incoming/lsttest/c/c.txt" suffix="txt" />
+</directory>
+<directory name="empty" size="0" lastModified="1279376956000" absolutePath="Q:/incoming/lsttest/empty/" />
+</directory>
+</directory>

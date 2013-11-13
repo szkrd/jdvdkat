@@ -1,0 +1,1 @@
+java -Xmx512m -cp ../lib/basex-6.1.7.jar org.basex.BaseX %1 %2 %3 %4 %5 %6 %7

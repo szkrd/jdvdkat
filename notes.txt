@@ -1,0 +1,51 @@
+RANDOM NOTES
+============
+
+$doc
+<doc path='{ base-uri($doc) }'/>
+
+for $doc in collection()
+let $file-path := base-uri($doc)
+where ends-with($file-path, '/0001.xml')
+return concat($file-path, ' has ', count($doc//*), ' elements')
+
+for $x in doc("file:/Q:/incoming/test/0020.xml")/directory/*/@*
+return concat(node-name($x), ':', $x, '&#xA;')
+
+DOC-PATH: GET BASE-URI
+----------------------
+for $doc in collection()
+let $file-path := base-uri($doc)
+where ends-with($file-path, '/0001.xml')
+return concat($file-path, ' has ', count($doc//*), ' elements')
+
+SEARCH IN COLLECTION WITH KNOWN DOC-PATH
+----------------------------------------
+for $x  in collection("test")/doc("file:/Q:/dev/java/bin/xml-dir-listing-ex/0001.xml")/directory/*
+let $nodes := (
+  for $y in $x/@*
+	return concat(node-name($y), ': ', $y, '&#xA;')
+)
+let $ret := insert-before(concat('node: ', node-name($x), '&#xA;'), 0, $nodes)
+let $ret := insert-before(concat('elements: ', count($x//*), '&#xA;'), 0, $ret)
+let $ret := insert-before(concat('children: ', count($x/*), '&#xA;'), 0, $ret)
+let $ret := insert-before('&#xA;&#xA;', 0, $ret)
+return $ret
+
+IN COLLECTION, KNOWN ENDING
+---------------------------
+for $doc in collection()
+let $file-path := base-uri($doc)
+where ends-with($file-path, '/0001.xml')
+return (
+	for $x in $doc/directory/*
+	let $nodes := (
+	  for $y in $x/@*
+		return concat(node-name($y), ': ', $y, '&#xA;')
+	)
+	let $ret := insert-before(concat('node: ', node-name($x), '&#xA;'), 0, $nodes)
+	let $ret := insert-before(concat('elements: ', count($x//*), '&#xA;'), 0, $ret)
+	let $ret := insert-before(concat('children: ', count($x/*), '&#xA;'), 0, $ret)
+	let $ret := insert-before('&#xA;&#xA;', 0, $ret)
+	return $ret
+)

@@ -1,0 +1,1 @@
+java -jar ../dist/JDvdKat.jar addtodb -o q:\docs\xmlcatalogs\%1.xml jdvdkat

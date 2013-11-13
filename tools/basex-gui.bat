@@ -1,0 +1,1 @@
+java -Xmx1024m -jar ../lib/basex-6.1.7.jar

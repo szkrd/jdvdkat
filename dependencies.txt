@@ -1,0 +1,31 @@
+MAIN GUI
+--------
+
+BaseX XML Database / BaseX61 (MIT-style license, see license.txt)
+http://www.inf.uni-konstanz.de/dbis/basex/index
+
+CRAWLER PART
+------------
+
+XML Directory Listing / xml-dir-listing 0.2.1 (Apache License 2.0)
+http://code.google.com/p/xml-dir-listing/
++ its libs:
+  - log4j-1.2.14
+  - commons-cli-1.1
+  - jakarta-regexp-1.5
+  - junit
+
+jID3 / jid3_0.46 (GNU LESSER GENERAL PUBLIC LICENSE)
+http://jid3.blinkenlights.org/
+
+J7Zip / J7zip_4.43_alpha2 (GNU LESSER GENERAL PUBLIC LICENSE)
+http://sourceforge.net/projects/p7zip/files/
+
+JUnRar / java-unrar-0.3 (UnRAR - free utility for RAR archives)
+http://sourceforge.net/projects/java-unrar/files/
+
+Sanselan / sanselan-0.97-incubator (Apache License 2.0)
+http://commons.apache.org/sanselan/
+
+Misc libs:
+apache-ant, apache-commons-logging
