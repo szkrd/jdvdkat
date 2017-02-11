@@ -12,7 +12,16 @@ The gui uses an integrated XML database called [BaseX][2]; all the files in the 
 Downloading
 -----------
 
-A built and zipped jar snapshot may be found in my [Google Drive][4], this is always the trunk/head build. Download, unzip and launch with `java -Xms1024m -Dfile.encoding=UTF-8 -jar JDvdKat.jar` (see the wiki for more options).
+A built and zipped jar snapshot may be found at releases, this is the **last trunk/head build**. Download, unzip and launch with `java -Xms1024m -Dfile.encoding=UTF-8 -jar JDvdKat.jar` (see the wiki for more options).
+
+Relic
+-----
+
+With the advance of cloud storage providers storing files on optical media is something of the past, I still have a couple of discs, but those have only a couple of bigger archives on them. This project is left here, but future releases are highly unlikely. TODOs:
+
+- [ ] use current Netbeans
+- [ ] update BaseX database
+- [ ] use Netbeans' Swing GUI Builder (former Matisse)
 
 [1]: http://code.google.com/p/xml-dir-listing/
 [2]: http://www.inf.uni-konstanz.de/dbis/basex/
