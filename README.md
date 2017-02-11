@@ -1,6 +1,8 @@
 JDvdKat
 =======
 
+Project status: **relic**
+
 JDvdKat is a very simple DVD cataloging software with a crawler part and a gui part.
 
 The crawler is based on Matt Haynes' [XML Directory Listing][1] application with added zip, 7zip, rar, id3, picture and descript.ion support; the crawler is a console application and uses XML to store the data.
